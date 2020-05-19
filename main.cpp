@@ -15,9 +15,9 @@ int main() {
     ifstream fin;
     ofstream fout;
 
-    cout << "Введите путь к входному файлу:\n";
+    cout << "Enter the input file path:\n";
     cin >> filename_in;
-    cout << "Введите путь к выходному файлу:\n";
+    cout << "Enter the output file path:\n";
     cin >> filename_out;
 
     fin.open(filename_in);
